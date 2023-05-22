@@ -1,0 +1,11 @@
+- name: email
+  type: regex
+  part: response
+  regex:
+    - "[a-zA-Z0-9_.]{2,}@[A-Za-z0-9_-]+[.](com|org|net|io|gov|my|co|co.uk|com.mx|com.br|com.sv|co.cr|com.gt|com.hn| com.ni|com.au|com.cn)"
+
+- name: ip
+  type: regex
+  part: response
+  regex:
+    - "\\b(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.(25[0-5] 2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\b"
