@@ -1,4 +1,4 @@
-# Katana-IP-email-regex
+# Custom field extraction using Katana IP and email regex
 ```
 custom fields can be used to extract email and IP addresses!
 ```
